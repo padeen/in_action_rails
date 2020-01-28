@@ -45,8 +45,10 @@ group :development do
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
+  # Add support for Capybara system testing and selenium driver
   gem 'capybara', '~> 3.31'
+  # Create new objects for testing with factory girl
+  gem 'factory_bot', '~> 5.1', '>= 5.1.1'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
