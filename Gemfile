@@ -13,6 +13,8 @@ gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 # Use devise for authentication
 gem 'devise', '~> 4.7', '>= 4.7.1'
+# Use pundit gem for authorization
+gem 'pundit', '~> 2.1'
 # Use simple form for forms
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
